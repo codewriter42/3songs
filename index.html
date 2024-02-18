@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3 SONGS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body oncontextmenu="return false">
+<!-- partial:index.partial.html -->
+<body>
+    <div class="album-cover">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="./photo/dnizustukprr.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=rbvQ5scbOQg"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./photo/gulpemb.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=kyng7Wvj-cc&ab_channel=Bar%C4%B1%C5%9FMan%C3%A7o-Topic"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="./photo/malagena.jpg" />
+            <div class="overlay">
+              <a
+                href="https://www.youtube.com/watch?v=xpRgR-tZEpk"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <h1>Title</h1>
+      <p>Song Name</p>
+
+      <audio id="song">
+        <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <button class="backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="play-pause-btn">
+          <i class="fa-solid fa-play" id="controlIcon"></i>
+        </button>
+        <button class="forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+<div class="miniprofile d1">
+  <img src="./photo/profilepicture.jpg" alt="codewriter42">
+  <div>
+    <span class="name" translate="no">CODE WRİTER42</span><br>
+    <span class="username" translate="no">@codewriter42</span><br>
+    <span class="kaynak" translate="no"><i class="fa-brands fa-github"></i><a href="https://github.com/codewriter42" target="_blank">codewriter42</a></span>
+  </div>
+</div>
+</body>
+</html>
